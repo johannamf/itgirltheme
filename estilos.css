@@ -1,0 +1,95 @@
+.hentry .wp-post-image {
+    width: auto;
+    height: 124px;
+    display: inline-block;
+    float: left;
+}
+.widget ul {
+    margin-left: 10px;
+    list-style: none;
+    display: flex;
+	  justify-content: center;
+}
+ul.social_list li {
+    margin: 17px 11px;
+		min-width: 100px;
+} 
+ul.social_list li {
+    text-align: center;
+} 
+.logo-footer{
+	margin:auto;
+	width:160px
+} 
+img.footer.social_icon {
+    margin: auto;
+	  width: 30px;
+}
+span.tel-text {
+    text-align: center;
+    display: block;
+    overflow: visible;
+}
+.widget ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+    min-width: 277px;
+}
+.social_list h3 {
+    width: 100%;
+    text-align: center;
+}
+
+.post .entry-content .wp-post-image {
+    display: none;
+}
+.post span.posted-on {
+    display: none;
+}
+.post span.post-author {
+    display: none;
+}
+
+.wp-block-image.logo-footer img {
+    width: 100px;
+}
+
+@media (min-width: 768px){
+	img.footer.social_icon {
+    margin: auto;
+    width: 25px;
+    vertical-align: bottom;
+    margin: 0 8px;
+	}
+	
+	.widget ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    width: 100%;
+    min-width: 277px;
+	}
+	.social_list a {
+    display: flex;
+	}
+ .social_list h3 {
+    width: 100%;
+    text-align: left;
+}
+	.wp-block-image.logo-footer img {
+    width: 200px;
+}
+	a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+    display: none;
+}
+	@media (min-width: 768px){
+.site-header .site-branding img {
+    height: auto;
+    max-width: 150px;
+    max-height: none;
+		}
+	}
